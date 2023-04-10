@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding-bottom: 48px;
+}
+
+.nav {
+  background-color: #f55a5a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  height: 70px;
+  color: #ffffff;
+}
+
+.nav__logo {
+  font-size: 30px;
+}
+
+.nav__title {
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+}
+
+.journal {
+  display: flex;
+  gap: 24px;
+  margin: 0 48px;
+}
+
+.journal__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.journal__image {
+  width: 225px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.journal__location-info {
+  display: inline-flex;
+  font-size: 16px;
+  align-items: center;
+}
+
+.journal__location-info > p {
+  margin: 0;
+  margin-left: 6px;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.journal__location-info > a {
+  margin-left: 24px;
+  line-height: 12px;
+  color: #918e9b;
+  font-size: 16px;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+}
+
+.location-info__icon {
+  font-size: 24px;
+  color: #f55a5a;
+}
+
+.journal__location {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  line-height: 30px;
+  font-size: 40px;
+  color: #2b283a;
+  font-weight: 700;
+}
+
+.journal__date {
+  margin: 0;
+  margin-top: 0.5rem;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 12px;
+  color: #2b283a;
+}
+
+.journal__info {
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 400;
+  color: #2b283a;
+}
