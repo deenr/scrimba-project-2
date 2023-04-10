@@ -52,6 +52,17 @@ body {
   border-radius: 10px;
 }
 
+@media screen and (max-width: 800px) {
+  .journal {
+    flex-wrap: wrap;
+  }
+
+  .journal__image {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
 .journal__location-info {
   display: inline-flex;
   font-size: 16px;
